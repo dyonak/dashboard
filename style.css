@@ -150,7 +150,7 @@ ul {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background: rgb(0,134,201);
-    background: linear-gradient(260deg, rgba(0,134,201,1) 0%, rgba(0,102,153,1) 100%);
+    background: linear-gradient(300deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     padding: 13px;
 }
 
@@ -167,7 +167,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: darkgrey;
+    color: var(--background-color);
 }
 
 .projectactions > i {
@@ -176,12 +176,12 @@ ul {
 
 .projectactions:nth-child(3) {
     border-bottom-left-radius: 10px;
-    border-right: 1px solid darkgray;
+    border-right: 1px solid var(--background-color);
 }
 
 .projectactions:nth-child(5) {
     border-bottom-right-radius: 10px;
-    border-left: 1px solid darkgray;
+    border-left: 1px solid var(--background-color);
 }
 
 .projectactions:hover {
