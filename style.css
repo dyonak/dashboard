@@ -102,6 +102,7 @@ table {
 }
 
 .welcome {
+    padding-top: 20px;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 1fr;
@@ -111,41 +112,43 @@ table {
     grid-row: 1 / 3;
     grid-column: 1 / 2;
     justify-self: right;
-    padding-right: 10px
+    padding-right: 10px;
 }
 
 .welcome p {
     padding-left: 10px;
     font-size: large;
+    align-self: self-end;
 }
 
 .welcome p+p {
     font-size: xx-large;
+    
 }
 
 .userinfo {
     padding-left: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
     grid-template-rows: 1fr;
     justify-items: center;
+    align-items: center;
 }
 
 .useractions {
-    padding-left: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: stretch;
-    align-items: start;
+    align-self: center;
 }
 
 .useractions button {
     background-color: var(--primary-color);
     border: none;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 15px;
     margin: 5px;
+    padding: 5px;
     font-size: larger;
 }
 
@@ -226,7 +229,7 @@ i {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 .announcecontainer, .trendcontainer {
