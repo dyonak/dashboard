@@ -222,6 +222,7 @@ i {
     height: 40px;
     padding-top: 20px;
     padding-left: 20px;
+    font-weight: 700;
 }
 
 .mainright {
@@ -229,7 +230,7 @@ i {
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: auto 2fr;
 }
 
 .announcecontainer, .trendcontainer {
